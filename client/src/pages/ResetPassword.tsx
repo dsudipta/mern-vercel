@@ -16,8 +16,7 @@ const ResetPassword = () => {
   
   const { token } = useParams();
   const navigate = useNavigate();
-  const backendURL = import.meta.env.VITE_BACKEND_URL;
-
+const backendURL = import.meta.env.VITE_BACKEND_URL;
   const handleResetPassword = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
